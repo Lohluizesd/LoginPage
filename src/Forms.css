@@ -1,0 +1,41 @@
+:root {
+  --cor-primaria: #a1a1a1;
+  --cor-border: #e8e8e8;
+  --cor-secundaria: #7f265b;
+}
+
+.input {
+  width: 100%;
+  max-width: 420px;
+  height: 40px;
+  padding: 0px 20px;
+  border: 1px solid var(--cor-border);
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.form-texto {
+  color: var(--cor-primaria);
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.form-options {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.remember {
+  color: var(--cor-primaria);
+  font-size: 12px;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.form-forgot {
+  color: var(--cor-secundaria);
+  font-size: 12px;
+  text-decoration: none;
+}

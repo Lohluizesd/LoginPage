@@ -1,0 +1,35 @@
+.btn {
+  width: 100%;
+  max-width: 420px;
+  height: 40px;
+  padding: 0px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.btn img {
+  width: 25px;
+  height: 25px;
+  display: block;
+}
+.primary {
+  background-color: #ffffff;
+  border: 1px solid #e8e8e8;
+  color: #828282;
+  font-weight: 600;
+}
+
+.secondary {
+  background-color: #7f265b;
+  border: none;
+  color: #ffffff;
+  font-weight: 600;
+}
+
+.btn:hover {
+  opacity: 0.9;
+}
