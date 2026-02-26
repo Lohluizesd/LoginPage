@@ -14,11 +14,14 @@
 .container {
   display: flex;
   align-items: center;
+  gap: 180px;
   height: 100vh;
 }
 .imagem {
-  width: 800px;
-  height: 690px;
+  width: 100vh;
+  height: 100vh;
+  object-fit: cover;
+  display: block;
 }
 
 body {
@@ -27,12 +30,16 @@ body {
 }
 
 .container-infos {
-  margin-left: 150px;
-  width: 400px;
+  width: min(420px, 90vw);
+  padding: 0 48px;
 }
 
 @media (max-width: 768px) {
   .container {
-    display: block;
+    flex-direction: column;
+  }
+  .imagem {
+    width: 100%;
+    height: auto;
   }
 }
