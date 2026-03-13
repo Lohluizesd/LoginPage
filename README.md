@@ -1,16 +1,48 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# Login Page Caveira
 
-Currently, two official plugins are available:
+# Login UI - React
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Interface de login responsiva desenvolvida em **React** com foco em prática de layout, organização de componentes e responsividade.
 
-## React Compiler
+A aplicação simula uma tela moderna de autenticação com opção de login via Google e formulário tradicional.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 📸 Preview
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+<img width="1875" height="913" alt="image" src="https://github.com/user-attachments/assets/6ed697aa-a587-4aee-9f4a-50a453da3ebb" />
+
+
+## 🚀 Tecnologias utilizadas
+
+- React;
+- JavaScript;
+- CSS3;
+
+
+## 🧠 Objetivo do projeto
+
+Este projeto foi desenvolvido com o objetivo de praticar construção de layouts com React, componentização, responsividade, organização do CSS e boas práticas de estrutura de projeto.
+
+## ✨ Melhorias Futuras
+
+- Integração com autenticação real;
+
+- Validação de formulário;
+
+- Dark mode;
+
+- Integração com API de login ;
+
+## 💻 Como rodar na sua máquina:
+
+- Faça o download do repositório através do arquivo zip ou do terminal usando o git clone;
+- Acesse o diretório do projeto pelo seu terminal;
+- É necessário ter o *Noje.js* instalado para executar este projeto!
+- Rode o comando npm install para instalar as dependências.
+- Rode o comando npm run dev.
+- Acesse o link fornecido, geralmente é localhost:5173.
+
+
+
