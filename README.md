@@ -1,6 +1,3 @@
-
-# Login Page Caveira
-
 # Login UI - React
 
 Interface de login responsiva desenvolvida em **React** com foco em prática de layout, organização de componentes e responsividade.
